@@ -6,7 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'WcParcelas\\App\\' => array($baseDir . '/app'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
-    'League\\Container\\' => array($vendorDir . '/league/container/src'),
+    'InstallmentPricesForWooCommerce\\Module\\AdminUi\\' => array($baseDir . '/modules/admin-ui/src'),
+    'InstallmentPricesForWooCommerce\\Foundation\\' => array($baseDir . '/foundation/src'),
+    'InstallmentPricesForWooCommerce\\' => array($baseDir . '/src'),
 );

@@ -1,0 +1,10 @@
+{
+  "resources/js/app/main.tsx": [
+    "react",
+    "wp-element",
+    "wp-api-fetch",
+    "wp-i18n",
+    "react-jsx-runtime",
+    "react-dom"
+  ]
+}

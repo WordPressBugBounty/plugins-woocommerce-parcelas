@@ -4,95 +4,103 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd7818d62ffc34ba6b5d1d0d62731f2e4
+class ComposerStaticInit14662cfc532107a6b6fc2289c209f177
 {
     public static $prefixLengthsPsr4 = array (
-        'W' => 
-        array (
-            'WcParcelas\\App\\' => 15,
-        ),
-        'P' => 
+        'P' =>
         array (
             'Psr\\Container\\' => 14,
         ),
-        'L' => 
+        'I' =>
         array (
-            'League\\Container\\' => 17,
+            'InstallmentPricesForWooCommerce\\Module\\AdminUi\\' => 47,
+            'InstallmentPricesForWooCommerce\\Foundation\\' => 43,
+            'InstallmentPricesForWooCommerce\\' => 32,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'WcParcelas\\App\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
-        ),
-        'Psr\\Container\\' => 
+        'Psr\\Container\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'League\\Container\\' => 
+        'InstallmentPricesForWooCommerce\\Module\\AdminUi\\' =>
         array (
-            0 => __DIR__ . '/..' . '/league/container/src',
+            0 => __DIR__ . '/../..' . '/modules/admin-ui/src',
+        ),
+        'InstallmentPricesForWooCommerce\\Foundation\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/foundation/src',
+        ),
+        'InstallmentPricesForWooCommerce\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'League\\Container\\Argument\\ArgumentInterface' => __DIR__ . '/..' . '/league/container/src/Argument/ArgumentInterface.php',
-        'League\\Container\\Argument\\ArgumentResolverInterface' => __DIR__ . '/..' . '/league/container/src/Argument/ArgumentResolverInterface.php',
-        'League\\Container\\Argument\\ArgumentResolverTrait' => __DIR__ . '/..' . '/league/container/src/Argument/ArgumentResolverTrait.php',
-        'League\\Container\\Argument\\DefaultValueArgument' => __DIR__ . '/..' . '/league/container/src/Argument/DefaultValueArgument.php',
-        'League\\Container\\Argument\\DefaultValueInterface' => __DIR__ . '/..' . '/league/container/src/Argument/DefaultValueInterface.php',
-        'League\\Container\\Argument\\LiteralArgument' => __DIR__ . '/..' . '/league/container/src/Argument/LiteralArgument.php',
-        'League\\Container\\Argument\\LiteralArgumentInterface' => __DIR__ . '/..' . '/league/container/src/Argument/LiteralArgumentInterface.php',
-        'League\\Container\\Argument\\Literal\\ArrayArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/ArrayArgument.php',
-        'League\\Container\\Argument\\Literal\\BooleanArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/BooleanArgument.php',
-        'League\\Container\\Argument\\Literal\\CallableArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/CallableArgument.php',
-        'League\\Container\\Argument\\Literal\\FloatArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/FloatArgument.php',
-        'League\\Container\\Argument\\Literal\\IntegerArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/IntegerArgument.php',
-        'League\\Container\\Argument\\Literal\\ObjectArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/ObjectArgument.php',
-        'League\\Container\\Argument\\Literal\\StringArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/StringArgument.php',
-        'League\\Container\\Argument\\ResolvableArgument' => __DIR__ . '/..' . '/league/container/src/Argument/ResolvableArgument.php',
-        'League\\Container\\Argument\\ResolvableArgumentInterface' => __DIR__ . '/..' . '/league/container/src/Argument/ResolvableArgumentInterface.php',
-        'League\\Container\\Container' => __DIR__ . '/..' . '/league/container/src/Container.php',
-        'League\\Container\\ContainerAwareInterface' => __DIR__ . '/..' . '/league/container/src/ContainerAwareInterface.php',
-        'League\\Container\\ContainerAwareTrait' => __DIR__ . '/..' . '/league/container/src/ContainerAwareTrait.php',
-        'League\\Container\\DefinitionContainerInterface' => __DIR__ . '/..' . '/league/container/src/DefinitionContainerInterface.php',
-        'League\\Container\\Definition\\Definition' => __DIR__ . '/..' . '/league/container/src/Definition/Definition.php',
-        'League\\Container\\Definition\\DefinitionAggregate' => __DIR__ . '/..' . '/league/container/src/Definition/DefinitionAggregate.php',
-        'League\\Container\\Definition\\DefinitionAggregateInterface' => __DIR__ . '/..' . '/league/container/src/Definition/DefinitionAggregateInterface.php',
-        'League\\Container\\Definition\\DefinitionInterface' => __DIR__ . '/..' . '/league/container/src/Definition/DefinitionInterface.php',
-        'League\\Container\\Exception\\ContainerException' => __DIR__ . '/..' . '/league/container/src/Exception/ContainerException.php',
-        'League\\Container\\Exception\\NotFoundException' => __DIR__ . '/..' . '/league/container/src/Exception/NotFoundException.php',
-        'League\\Container\\Inflector\\Inflector' => __DIR__ . '/..' . '/league/container/src/Inflector/Inflector.php',
-        'League\\Container\\Inflector\\InflectorAggregate' => __DIR__ . '/..' . '/league/container/src/Inflector/InflectorAggregate.php',
-        'League\\Container\\Inflector\\InflectorAggregateInterface' => __DIR__ . '/..' . '/league/container/src/Inflector/InflectorAggregateInterface.php',
-        'League\\Container\\Inflector\\InflectorInterface' => __DIR__ . '/..' . '/league/container/src/Inflector/InflectorInterface.php',
-        'League\\Container\\ReflectionContainer' => __DIR__ . '/..' . '/league/container/src/ReflectionContainer.php',
-        'League\\Container\\ServiceProvider\\AbstractServiceProvider' => __DIR__ . '/..' . '/league/container/src/ServiceProvider/AbstractServiceProvider.php',
-        'League\\Container\\ServiceProvider\\BootableServiceProviderInterface' => __DIR__ . '/..' . '/league/container/src/ServiceProvider/BootableServiceProviderInterface.php',
-        'League\\Container\\ServiceProvider\\ServiceProviderAggregate' => __DIR__ . '/..' . '/league/container/src/ServiceProvider/ServiceProviderAggregate.php',
-        'League\\Container\\ServiceProvider\\ServiceProviderAggregateInterface' => __DIR__ . '/..' . '/league/container/src/ServiceProvider/ServiceProviderAggregateInterface.php',
-        'League\\Container\\ServiceProvider\\ServiceProviderInterface' => __DIR__ . '/..' . '/league/container/src/ServiceProvider/ServiceProviderInterface.php',
+        'InstallmentPricesForWooCommerce\\Admin\\ProductDataTab' => __DIR__ . '/../..' . '/src/Admin/ProductDataTab.php',
+        'InstallmentPricesForWooCommerce\\Admin\\SettingsPage' => __DIR__ . '/../..' . '/src/Admin/SettingsPage.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Assets\\Vite' => __DIR__ . '/../..' . '/foundation/src/Assets/Vite.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Assets\\ViteException' => __DIR__ . '/../..' . '/foundation/src/Assets/ViteException.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Container\\Container' => __DIR__ . '/../..' . '/foundation/src/Container/Container.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Container\\ContainerException' => __DIR__ . '/../..' . '/foundation/src/Container/ContainerException.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Container\\NotFoundException' => __DIR__ . '/../..' . '/foundation/src/Container/NotFoundException.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Contracts\\ModuleInterface' => __DIR__ . '/../..' . '/foundation/src/Contracts/ModuleInterface.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Contracts\\ServiceProviderInterface' => __DIR__ . '/../..' . '/foundation/src/Contracts/ServiceProviderInterface.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Database\\Migration' => __DIR__ . '/../..' . '/foundation/src/Database/Migration.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Database\\Migrator' => __DIR__ . '/../..' . '/foundation/src/Database/Migrator.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Hooks\\Action' => __DIR__ . '/../..' . '/foundation/src/Hooks/Action.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Hooks\\Filter' => __DIR__ . '/../..' . '/foundation/src/Hooks/Filter.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Hooks\\HookRegistrar' => __DIR__ . '/../..' . '/foundation/src/Hooks/HookRegistrar.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Http\\HttpClient' => __DIR__ . '/../..' . '/foundation/src/Http/HttpClient.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Http\\Response' => __DIR__ . '/../..' . '/foundation/src/Http/Response.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\I18n\\TextDomain' => __DIR__ . '/../..' . '/foundation/src/I18n/TextDomain.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Lifecycle\\Lifecycle' => __DIR__ . '/../..' . '/foundation/src/Lifecycle/Lifecycle.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Logging\\LogLevel' => __DIR__ . '/../..' . '/foundation/src/Logging/LogLevel.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Logging\\Logger' => __DIR__ . '/../..' . '/foundation/src/Logging/Logger.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Logging\\LoggerInterface' => __DIR__ . '/../..' . '/foundation/src/Logging/LoggerInterface.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Plugin' => __DIR__ . '/../..' . '/foundation/src/Plugin.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Provider\\ServiceProvider' => __DIR__ . '/../..' . '/foundation/src/Provider/ServiceProvider.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Rest\\RestController' => __DIR__ . '/../..' . '/foundation/src/Rest/RestController.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Security\\Capability' => __DIR__ . '/../..' . '/foundation/src/Security/Capability.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Security\\Crypto' => __DIR__ . '/../..' . '/foundation/src/Security/Crypto.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Security\\Escaper' => __DIR__ . '/../..' . '/foundation/src/Security/Escaper.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Security\\Nonce' => __DIR__ . '/../..' . '/foundation/src/Security/Nonce.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Security\\Sanitizer' => __DIR__ . '/../..' . '/foundation/src/Security/Sanitizer.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Settings\\Options' => __DIR__ . '/../..' . '/foundation/src/Settings/Options.php',
+        'InstallmentPricesForWooCommerce\\Foundation\\Settings\\SettingsRepository' => __DIR__ . '/../..' . '/foundation/src/Settings/SettingsRepository.php',
+        'InstallmentPricesForWooCommerce\\Identity' => __DIR__ . '/../..' . '/src/Identity.php',
+        'InstallmentPricesForWooCommerce\\Lifecycle\\Uninstaller' => __DIR__ . '/../..' . '/src/Lifecycle/Uninstaller.php',
+        'InstallmentPricesForWooCommerce\\Lifecycle\\WooCommerceCompatibility' => __DIR__ . '/../..' . '/src/Lifecycle/WooCommerceCompatibility.php',
+        'InstallmentPricesForWooCommerce\\Module\\AdminUi\\AdminAssets' => __DIR__ . '/../..' . '/modules/admin-ui/src/AdminAssets.php',
+        'InstallmentPricesForWooCommerce\\Module\\AdminUi\\AdminPage' => __DIR__ . '/../..' . '/modules/admin-ui/src/AdminPage.php',
+        'InstallmentPricesForWooCommerce\\Module\\AdminUi\\AdminUiModule' => __DIR__ . '/../..' . '/modules/admin-ui/src/AdminUiModule.php',
+        'InstallmentPricesForWooCommerce\\Pricing\\Calculator' => __DIR__ . '/../..' . '/src/Pricing/Calculator.php',
+        'InstallmentPricesForWooCommerce\\Pricing\\DisplayPrice' => __DIR__ . '/../..' . '/src/Pricing/DisplayPrice.php',
+        'InstallmentPricesForWooCommerce\\Product\\Overrides' => __DIR__ . '/../..' . '/src/Product/Overrides.php',
+        'InstallmentPricesForWooCommerce\\Providers\\AdminServiceProvider' => __DIR__ . '/../..' . '/src/Providers/AdminServiceProvider.php',
+        'InstallmentPricesForWooCommerce\\Providers\\CoreServiceProvider' => __DIR__ . '/../..' . '/src/Providers/CoreServiceProvider.php',
+        'InstallmentPricesForWooCommerce\\Providers\\RestServiceProvider' => __DIR__ . '/../..' . '/src/Providers/RestServiceProvider.php',
+        'InstallmentPricesForWooCommerce\\Providers\\StorefrontServiceProvider' => __DIR__ . '/../..' . '/src/Providers/StorefrontServiceProvider.php',
+        'InstallmentPricesForWooCommerce\\Rest\\SettingsController' => __DIR__ . '/../..' . '/src/Rest/SettingsController.php',
+        'InstallmentPricesForWooCommerce\\Settings\\LegacySettings' => __DIR__ . '/../..' . '/src/Settings/LegacySettings.php',
+        'InstallmentPricesForWooCommerce\\Settings\\Settings' => __DIR__ . '/../..' . '/src/Settings/Settings.php',
+        'InstallmentPricesForWooCommerce\\Settings\\StorageKeys' => __DIR__ . '/../..' . '/src/Settings/StorageKeys.php',
+        'InstallmentPricesForWooCommerce\\Storefront\\Renderer' => __DIR__ . '/../..' . '/src/Storefront/Renderer.php',
+        'InstallmentPricesForWooCommerce\\Storefront\\Styles' => __DIR__ . '/../..' . '/src/Storefront/Styles.php',
         'Psr\\Container\\ContainerExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerExceptionInterface.php',
         'Psr\\Container\\ContainerInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerInterface.php',
         'Psr\\Container\\NotFoundExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/NotFoundExceptionInterface.php',
-        'WcParcelas\\App\\Common\\FrontEnd' => __DIR__ . '/../..' . '/app/Common/FrontEnd.php',
-        'WcParcelas\\App\\Common\\Helpers\\Woo' => __DIR__ . '/../..' . '/app/Common/Helpers/Woo.php',
-        'WcParcelas\\App\\Common\\MetaBox' => __DIR__ . '/../..' . '/app/Common/MetaBox.php',
-        'WcParcelas\\App\\Common\\Settings' => __DIR__ . '/../..' . '/app/Common/Settings.php',
-        'WcParcelas\\App\\Common\\Utils' => __DIR__ . '/../..' . '/app/Common/Utils.php',
-        'WcParcelas\\App\\Container' => __DIR__ . '/../..' . '/app/Container.php',
-        'WcParcelas\\App\\Main' => __DIR__ . '/../..' . '/app/Main.php',
-        'WcParcelas\\App\\MainAbstract' => __DIR__ . '/../..' . '/app/MainAbstract.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd7818d62ffc34ba6b5d1d0d62731f2e4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd7818d62ffc34ba6b5d1d0d62731f2e4::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitd7818d62ffc34ba6b5d1d0d62731f2e4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit14662cfc532107a6b6fc2289c209f177::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit14662cfc532107a6b6fc2289c209f177::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit14662cfc532107a6b6fc2289c209f177::$classMap;
 
         }, null, ClassLoader::class);
     }

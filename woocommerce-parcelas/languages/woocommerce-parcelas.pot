@@ -1,0 +1,422 @@
+# Copyright (C) 2026 Filipe Seabra
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Installment Prices for WooCommerce 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-parcelas\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-01T02:09:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: woocommerce-parcelas\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-parcelas.php
+#: src/Admin/SettingsPage.php:94
+msgid "Installment Prices for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-parcelas.php
+msgid "https://wordpress.org/plugins/woocommerce-parcelas/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-parcelas.php
+msgid "Show installment prices and a discounted cash price on your WooCommerce product lists and product pages."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-parcelas.php
+msgid "Filipe Seabra"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-parcelas.php
+msgid "https://github.com/filipecsweb"
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:80
+msgid "Installments"
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:116
+msgid "Hide installments"
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:117
+msgid "Show no installment price for this product."
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:122
+#: public/build/main.js:102
+msgid "Maximum installments"
+msgstr ""
+
+#. translators: 1: fewest installments allowed; 2: most installments allowed.
+#: src/Admin/ProductDataTab.php:129
+#, php-format
+msgid "From %1$d to %2$d. Leave blank to use the store setting."
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:139
+msgid "Hide cash price"
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:140
+msgid "Show no cash price for this product."
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:145
+msgid "Cash discount"
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:151
+msgid "Leave blank to use the store setting."
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:155
+#: public/build/main.js:104
+msgid "Discount type"
+msgstr ""
+
+#: src/Admin/ProductDataTab.php:157
+msgid "Store setting"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:86
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:102
+msgid "Installment Prices"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:117
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:170
+msgid "Show installment prices and a cash price on your product lists and product pages."
+msgstr ""
+
+#: src/Settings/Settings.php:251
+msgid "Below the product title"
+msgstr ""
+
+#: src/Settings/Settings.php:252
+#: src/Settings/Settings.php:258
+msgid "Below the Add to cart button"
+msgstr ""
+
+#: src/Settings/Settings.php:255
+msgid "In the product summary"
+msgstr ""
+
+#: src/Settings/Settings.php:256
+msgid "Above the add-to-cart form"
+msgstr ""
+
+#: src/Settings/Settings.php:257
+msgid "Above the Add to cart button"
+msgstr ""
+
+#: src/Settings/Settings.php:259
+msgid "Below the add-to-cart form"
+msgstr ""
+
+#: src/Settings/Settings.php:262
+#: src/Settings/Settings.php:268
+msgid "Theme default"
+msgstr ""
+
+#: src/Settings/Settings.php:263
+msgid "Left"
+msgstr ""
+
+#: src/Settings/Settings.php:264
+msgid "Center"
+msgstr ""
+
+#: src/Settings/Settings.php:265
+msgid "Right"
+msgstr ""
+
+#: src/Settings/Settings.php:269
+msgid "100 (Thin)"
+msgstr ""
+
+#: src/Settings/Settings.php:270
+msgid "200 (Extra light)"
+msgstr ""
+
+#: src/Settings/Settings.php:271
+msgid "300 (Light)"
+msgstr ""
+
+#: src/Settings/Settings.php:272
+msgid "400 (Normal)"
+msgstr ""
+
+#: src/Settings/Settings.php:273
+msgid "500 (Medium)"
+msgstr ""
+
+#: src/Settings/Settings.php:274
+msgid "600 (Semibold)"
+msgstr ""
+
+#: src/Settings/Settings.php:275
+msgid "700 (Bold)"
+msgstr ""
+
+#: src/Settings/Settings.php:276
+msgid "800 (Extra bold)"
+msgstr ""
+
+#: src/Settings/Settings.php:277
+msgid "900 (Black)"
+msgstr ""
+
+#: src/Settings/Settings.php:280
+msgid "Percentage (%)"
+msgstr ""
+
+#: src/Settings/Settings.php:281
+msgid "Fixed amount"
+msgstr ""
+
+#. translators: %d: number of installments; the amount of each follows.
+#: src/Storefront/Renderer.php:96
+#, php-format
+msgid "%d installment of"
+msgid_plural "%d installments of"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Storefront/Renderer.php:100
+msgid "From"
+msgstr ""
+
+#: woocommerce-parcelas.php:53
+msgid "Installment Prices for WooCommerce: dependencies are missing. Run \"composer install\" in the plugin directory."
+msgstr ""
+
+#: public/build/main.js:100
+msgid "picker"
+msgstr ""
+
+#: public/build/main.js:100
+msgid "Theme"
+msgstr ""
+
+#: public/build/main.js:100
+msgid "use the theme color"
+msgstr ""
+
+#: public/build/main.js:100
+#: public/build/main.js:104
+msgid "Product lists"
+msgstr ""
+
+#: public/build/main.js:100
+msgid "The shop, category and search pages, and lists such as related products."
+msgstr ""
+
+#: public/build/main.js:100
+#: public/build/main.js:104
+msgid "Product page"
+msgstr ""
+
+#: public/build/main.js:100
+msgid "When variations cost different amounts, the chosen variation’s own lines also appear under its price."
+msgstr ""
+
+#: public/build/main.js:100
+msgid "Position"
+msgstr ""
+
+#: public/build/main.js:100
+msgid "Priority"
+msgstr ""
+
+#: public/build/main.js:100
+msgid "Order within the position: WooCommerce shows the price at 10, so 15 comes right after it."
+msgstr ""
+
+#: public/build/main.js:100
+msgid "Alignment"
+msgstr ""
+
+#. translators: 1: a field label; 2: the store's currency symbol.
+#: public/build/main.js:102
+#, js-format
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: public/build/main.js:102
+#: public/build/main.js:104
+msgid "Installment price"
+msgstr ""
+
+#: public/build/main.js:102
+msgid "Splits the price into interest-free installments, e.g. \"Up to 10 installments of $9.90 interest-free\"."
+msgstr ""
+
+#: public/build/main.js:102
+msgid "Show the installment price"
+msgstr ""
+
+#: public/build/main.js:102
+#: public/build/main.js:104
+msgid "Text before"
+msgstr ""
+
+#: public/build/main.js:102
+msgid "e.g. \"Up to\". Products with a price range say \"From\" instead."
+msgstr ""
+
+#: public/build/main.js:102
+#: public/build/main.js:104
+msgid "Text after"
+msgstr ""
+
+#: public/build/main.js:102
+msgid "e.g. \"interest-free\"."
+msgstr ""
+
+#. translators: 1: fewest installments allowed; 2: most installments allowed.
+#: public/build/main.js:104
+#, js-format
+msgid "From %1$d to %2$d. A product can set its own in its Installments tab."
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Minimum installment"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Fewer installments are offered when one would cost less. 0 turns the limit off."
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Show it on out-of-stock products too"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Cash price"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "A discounted price for paying the full amount at once, e.g. \"or $89.10 by bank transfer\"."
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Show the cash price"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "e.g. \"or\"."
+msgstr ""
+
+#: public/build/main.js:104
+msgid "e.g. \"by bank transfer\"."
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Discount"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "A product can set its own in its Installments tab."
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Amount"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Color"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Weight"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Size"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Leave a field empty to keep your theme’s style."
+msgstr ""
+
+#: public/build/main.js:104
+msgid "e.g. 18px"
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Settings saved."
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Some style values weren’t valid, so they were cleared. Use colors like #1e1e1e and sizes like 18px or 1.2em."
+msgstr ""
+
+#: public/build/main.js:104
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: public/build/main.js:114
+msgid "Notifications"
+msgstr ""
+
+#: public/build/main.js:114
+msgid "Dismiss this notice."
+msgstr ""
+
+#: public/build/main.js:114
+msgid "General"
+msgstr ""
+
+#: public/build/main.js:114
+msgid "Display"
+msgstr ""
+
+#: public/build/main.js:114
+msgid "Style"
+msgstr ""
+
+#: public/build/main.js:114
+msgid "Settings sections"
+msgstr ""
+
+#: public/build/main.js:114
+msgid "Saving…"
+msgstr ""
+
+#: public/build/main.js:114
+msgid "Save settings"
+msgstr ""
+
+#: public/build/main.js:114
+msgid "You have unsaved changes."
+msgstr ""
+
+#. translators: %s: plugin version number.
+#: public/build/main.js:116
+#, js-format
+msgid "Version %s"
+msgstr ""
+
+#: public/build/main.js:116
+msgid "Get support"
+msgstr ""
+
+#: public/build/main.js:116
+msgid "WooCommerce is a trademark of its respective owner. This plugin is not affiliated with or endorsed by WooCommerce."
+msgstr ""
